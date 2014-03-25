@@ -2,7 +2,7 @@ var Converter = (function() {
 
     // Private stuff up here
     var conversionVat = 1.23;
-   // var offsetValue = 32;
+  
 
 
     // Public methods here

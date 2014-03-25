@@ -24,8 +24,8 @@ $(document).ready(function() {
         if (aValue.length != 0) {
             $("#tinput").val(Converter.convertFromAmountToAmountPlusVat(aValue));
         }
-        else if (fValue.length != 0) {
-            $("#ainput").val(Converter.FromAmountPlusVatToAmount(tValue));
+        else if (tValue.length != 0) {
+            $("#ainput").val(Converter.convertFromAmountPlusVatToAmount(tValue));
         }
     });
     $("#clearbutton").click(function() {
